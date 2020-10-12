@@ -1,0 +1,11 @@
+.roma {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+/* esempio */
+.stato {
+  position: relative;
+  font-size: 100vh;
+}
