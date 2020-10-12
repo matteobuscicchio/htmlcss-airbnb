@@ -1,11 +1,29 @@
-.roma {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+main{
+  box-sizing: border-box;
+  width: 100vw
+  height: 100vw;
 }
-/* esempio */
-.stato {
+.box{
   position: relative;
-  font-size: 100vh;
+  background-size: cover;
+  width: 600px;
+  height: 340px;
+  color: black;
+  border: 1px solid black;
+}
+.capitale{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#roma{
+  background-image: url(https://img2.meteo.it/bin/90.$plit/C_109_meteoCitta_4_upiFoto.jpg);
+}
+#naoli{
+  background-image: url();
+}
+#milano{
+  background-image: url(http://www.youparti.com/nightlife_2016/nightlife/wp-content/uploads/2018/10/Milano.jpg);
 }
