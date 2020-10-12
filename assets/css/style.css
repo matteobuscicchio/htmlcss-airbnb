@@ -9,8 +9,7 @@ main{
   width: 600px;
   height: 340px;
   color: black;
-  margin-top: 5px;
-  border: 1px solid black;
+  margin-top: 15px;
 }
 .capitale{
   position: absolute;
