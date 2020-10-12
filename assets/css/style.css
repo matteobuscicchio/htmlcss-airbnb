@@ -9,6 +9,7 @@ main{
   width: 600px;
   height: 340px;
   color: black;
+  margin-top: 5px;
   border: 1px solid black;
 }
 .capitale{
@@ -17,13 +18,21 @@ main{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.txt{
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
 
 #roma{
   background-image: url(https://img2.meteo.it/bin/90.$plit/C_109_meteoCitta_4_upiFoto.jpg);
+  opacity: 70%;
 }
 #napoli{
-  background-image: url(http://www.poli-listaperta.it/wp-content/uploads/2019/09/Panorama-di-Napoli-Gettyimages.jpg);
+  background-image: url(https://www.poli-listaperta.it/wp-content/uploads/2019/09/Panorama-di-Napoli-Gettyimages.jpg);
+  opacity: 70%;
 }
 #milano{
   background-image: url(http://www.youparti.com/nightlife_2016/nightlife/wp-content/uploads/2018/10/Milano.jpg);
+  opacity: 70%;
 }
